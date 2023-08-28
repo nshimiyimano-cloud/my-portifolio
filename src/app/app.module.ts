@@ -9,6 +9,7 @@ import { AboutusComponent } from './aboutus/aboutus.component';
 import { ServicesComponent } from './services/services.component';
 import { CertificatesComponent } from './certificates/certificates.component';
 import { BlogComponent } from './blog/blog.component';
+import { HeroBannerComponent } from './hero-banner/hero-banner.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { BlogComponent } from './blog/blog.component';
     ServicesComponent,
     CertificatesComponent,
     BlogComponent,
+    HeroBannerComponent,
   ],
   imports: [
     BrowserModule,
