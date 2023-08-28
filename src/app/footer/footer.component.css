@@ -1,0 +1,18 @@
+.socials-icon{
+    width: 60%;
+    margin: 25px auto;
+}
+.socials-icon li{
+    padding: 4px;
+    border: 2px solid rgb(73, 205, 73);
+    border-radius: 10px;
+    width: 2em;
+    
+}
+
+
+.socials-icon li a>i{
+    color: rgb(100, 152, 100);;
+    font-size: 1em;
+
+}

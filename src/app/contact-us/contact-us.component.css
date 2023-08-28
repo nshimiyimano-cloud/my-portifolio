@@ -1,3 +1,22 @@
 .contactus{
     padding-top: 3%;
 }
+
+.socials-icon{
+    width: 60%;
+    margin: 25px auto;
+}
+.socials-icon li{
+    padding: 4px;
+    border: 2px solid rgb(73, 205, 73);
+    border-radius: 10px;
+    width: 1.4em;
+    
+}
+
+
+.socials-icon li a>i{
+    color: rgb(100, 152, 100);;
+    font-size: 0.8em;
+
+}

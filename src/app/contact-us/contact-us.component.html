@@ -1,5 +1,5 @@
-<section class="contactus row container  mx-auto">
-  <h2 class="text-center m-5" style="color:rgb(100, 152, 100);">Get In Touch</h2>
+<section class="contactus row container  mx-auto" style="position:relative ;">
+  <h2 class="text-center m-5" style="color:rgb(100, 152, 100);"><mat-icon>email</mat-icon>&nbsp;&nbsp;Get In Touch</h2>
   <div class="contactus-description">
   <p>
     With over 4 years experience in Fullstack Developer, I deliver exceptional services for you within the shortest possible time at an affordable rate. 
@@ -16,7 +16,7 @@
     </p>
     </div>
     <div class="contact-desc col-md-6">
-      <h4>Contact Me</h4>
+      <h4 style="color:rgb(100, 152, 100);"><mat-icon>contact_mail</mat-icon>&nbsp;Contact Me</h4>
       <hr/>
       <div class="contactus-img border-end">
         <img src="../../assets/contactus.jpg" alt="contact us">
@@ -25,25 +25,17 @@
 
      
 
-        <div class="d-flex flex-row justify-content-around">
-          <div>
-            <a href="">Youtube</a>
-          </div>
-
-          <div>
-            <a href="">Twitter</a>
-          </div>
-
-          <div>
-            <a href="">Linkedin</a>
-          </div>
-
-          <div>
-            <a href="">Gmail</a>
-          </div>
-
-
-        </div>
+      <ul class="socials-icon list-unstyled d-flex flex-row justify-content-around flex-wrap">
+        <li> <a href=""> <i class="fa fa-whatsapp"></i> </a></li>
+        <li> <a href=""> <i class="fa fa-linkedin"></i> </a></li>
+        <li>  <a href=""> <i class="fa fa-twitter"></i> </a> </li>
+        <li> <a href="">  <i class="fa fa-google"></i></a> </li>
+        <li> <a href=""><i class="fa fa-youtube"></i></a> </li>
+        <li> <a href=""><i class="fa fa-facebook"></i></a> </li>
+        <li> <a href=""><i class="fa fa-phone"></i></a> </li>        
+    
+      </ul>
+    
         
         
 
@@ -72,11 +64,42 @@
             
           
             <!-- Submit button -->
-            <button type="submit" class="btn btn-primary btn-lg btn-block mb-4 w-50 float-md-end ">Send Message</button>
+            <button type="submit" class="btn btn-primary btn-lg btn-block mb-4 w-50 float-md-end " style="color: rgb(73, 205, 73);">Send Message&nbsp;&nbsp;<mat-icon [style]="'color: rgb(73, 205, 73)'">send</mat-icon></button>
           </form>
 
     </div>
     
+    <div style="z-index:-1;
+    position:absolute;
+    border-radius:50%;
+    width:70%;height:70%;
+    background: linear-gradient(
+    144.39deg,
+    #f61010 -278.56%,
+    #2f2c4c 10%, -78.47%,
+    #29254a 10%,
+    rgb(36, 29, 29) 91.61%  
+  );
+    left:-30%; bottom:5%;"
+    
+    ></div> 
 
+
+    <div style="z-index:-1;
+    position:absolute;
+    border-radius:50%;
+    width:70%;height:70%;
+    background: linear-gradient(
+    154.39deg,
+   
+    #f61010 -278.56%,
+    #2f2c4c 10%, -78.47%,
+    #29254a 10%,
+    rgb(36, 29, 29) 91.61%  
+  );
+    right:-30%; bottom:5%;"
+    
+    ></div> 
+  
 </section>
 

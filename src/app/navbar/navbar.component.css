@@ -1,3 +1,10 @@
+
+nav{
+    top: 0;
+    position: sticky;
+    z-index: 2;
+}
+
 ul li.nav-item .nav-link{
     font-size: 24px;
     color: darkorchid;
