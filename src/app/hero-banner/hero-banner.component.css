@@ -1,0 +1,26 @@
+.hero-banner-container{
+    
+    min-height: 500px;
+    background-image: url("../../assets/herobanner.png");
+    
+    background-position: center center;
+    background-size: cover;  
+    
+}
+.img-profile{
+    width: 40%;
+    margin:-200px auto;
+    margin-bottom: 10px;
+
+}
+.img-profile>img{
+    width: 100%;
+}
+marquee h4{
+    border-right: 4px solid rgb(105, 105, 232);
+    padding: 10px;
+}
+.downloadcv{
+    margin-top: 100px;
+    text-align: center;
+}

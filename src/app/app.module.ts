@@ -10,6 +10,7 @@ import { ServicesComponent } from './services/services.component';
 import { CertificatesComponent } from './certificates/certificates.component';
 import { BlogComponent } from './blog/blog.component';
 import { HeroBannerComponent } from './hero-banner/hero-banner.component';
+import { NgxTypedJsModule } from 'ngx-typed-js'
 
 @NgModule({
   declarations: [
@@ -24,7 +25,9 @@ import { HeroBannerComponent } from './hero-banner/hero-banner.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgxTypedJsModule
+  
   ],
   providers: [],
   bootstrap: [AppComponent]

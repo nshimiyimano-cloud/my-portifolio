@@ -1,1 +1,42 @@
-<p>hero-banner works!</p>
+<marquee>
+    <div class="d-flex justify-content-between text-primary">
+        <h4>Get Your Whole Project Ready On Time</h4>
+        <h4>Self Development is My Great Strength</h4>
+        <h4>Happy To help Others made me to found myself with the Great Potential in Software Development Journey</h4>
+        <h4>I'm excited to collaborate and bring your visions to life.</h4>
+        <h4>Your success is my priority</h4>
+        <h4 style="border-right:none ;">What sets me apart? My commitment to crafting seamless and dynamic user
+            experiences.</h4>
+    </div>
+</marquee>
+<section class="container-fluid" style="position:relative;">
+    <div class="hero-banner-container">
+
+
+    </div>
+    <div class="container img-profile">
+
+        <img [src]="'../../assets/profile.jpg'" [alt]="'profile picture'"
+            style="box-shadow: 50px 50px rgb(105, 105, 232);margin:auto;">
+        <div class="downloadcv  mx-auto">
+            <div class="type d-flex flex-row">
+                <h2 class="text-primary">I Am&nbsp;&nbsp;</h2>
+                <ngx-typed-js
+                    [strings]="['Nshimiyimana Jean Luc','Web Designer','Front End Developer','Backend Developer']"
+                    [loop]="true" [typeSpeed]="50" [shuffle]="true">
+                    <h2 class="typing text-primary"> </h2>
+
+                </ngx-typed-js>
+            </div>
+
+
+            <p>Welcome! If you're looking for a detailed overview of my skills, experience, and achievements,
+                 you're just a click away from accessing my CV. Get an in-depth look at my 4 years of expertise as a full-stack developer proficient in Angular, React, MySQL, Bootstrap, WordPress, and Python. 
+                Download my CV now and discover how I can bring value to your projects.</p>
+            <button class="btn btn-primary btnn-lg">DownLoad My CV</button>
+        </div>
+
+
+    </div>
+    <hr />
+</section>
