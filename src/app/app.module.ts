@@ -13,7 +13,8 @@ import { HeroBannerComponent } from './hero-banner/hero-banner.component';
 import { NgxTypedJsModule } from 'ngx-typed-js';
 import { FooterComponent } from './footer/footer.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
-import {MatIconModule} from '@angular/material/icon'
+import {MatIconModule} from '@angular/material/icon';
+import {MatButtonModule} from '@angular/material/button';
 @NgModule({
   declarations: [
     AppComponent,
@@ -31,7 +32,9 @@ import {MatIconModule} from '@angular/material/icon'
     AppRoutingModule,
     NgxTypedJsModule,
     BrowserAnimationsModule,
-    MatIconModule
+    MatIconModule,
+    MatButtonModule
+    
   
   ],
   providers: [],
