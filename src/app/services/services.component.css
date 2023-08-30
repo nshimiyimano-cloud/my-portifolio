@@ -1,0 +1,142 @@
+.work-history{
+    position: relative;
+        
+}
+
+.work-history .part{
+    position: relative;
+    border: 1px solid rgb(100, 152, 100);
+    padding: 20px;
+    border-radius: 5px;
+
+
+}
+
+.work-history .left-part{
+    position: relative;
+    text-align: right;
+    padding-right: 50px;
+    border-right: 2px solid rgb(100, 152, 100);;
+}
+
+.work-history .left-part::before{
+content: "\272C";
+z-index: 2;
+font-size: 50px;
+color: rgb(100, 152, 100);
+position: absolute;
+right: -23px;
+   
+}
+
+.work-history .right-part{
+    text-align: left;
+    padding-left: 50px;
+}
+
+
+
+
+.work-history .right-part .date{
+    position: relative;
+    margin: unset;
+    margin-bottom: 250px;
+    margin-top: 100px;
+   
+   
+}
+
+.work-history .left-part .date{
+    position: relative;
+    margin: unset;
+    margin-bottom: 250px;
+    margin-top: 100px;
+ 
+}
+
+.work-history .right-part .date ::before{
+    content: ".";
+    font-size: 100px;
+    font-weight: 900;
+    z-index: 2;
+    position: absolute;
+    left: -66px;
+    bottom: 50px;
+    color: rgb(100, 152, 100);
+}
+
+
+.work-history .left-part .date ::after{
+    content: ".";
+    font-size: 100px;
+    font-weight: 900;
+    z-index: 2;
+    position: absolute;
+   right: -66px;
+   bottom: 50px;
+    color: rgb(100, 152, 100);
+}
+
+@media only screen and (max-width: 950px) {
+
+
+    .work-history .right-part{
+        text-align: left;
+        padding-left: 50px;
+    }
+ 
+.exp-desc{
+    flex-wrap: wrap;
+    
+}
+
+
+
+.work-history .left-part .date,.work-history .right-part .date{   
+    margin: 50px 10px 150px 0;
+    width: 300px;
+
+}
+
+.sm-put-margin-top{
+    margin-top: 100px;
+}
+   
+
+
+
+
+
+
+
+
+.work-history .left-part .date ::after{  
+    right: unset;
+    left:-66px;
+}
+
+.work-history .left-part{
+    
+    text-align: left;
+    border-right: unset;   
+    border-left: 2px solid rgb(100, 152, 100);
+    padding-left: 50px;
+   
+}
+
+.work-history .right-part{    
+    text-align: left;
+    border-right: unset;   
+    border-left: 2px solid rgb(100, 152, 100);
+
+}
+
+.work-history .left-part::before{
+    right: unset;
+    left: -20px;
+       
+    }
+    
+  
+  }
+

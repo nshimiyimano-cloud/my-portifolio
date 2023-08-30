@@ -2,6 +2,7 @@
     
     min-height: 500px;
     background-image: url("../../assets/herobanner.png");
+    border: 20px solid #29254a;
     
     background-position: center center;
     background-size: cover;  
