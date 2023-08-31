@@ -13,6 +13,24 @@
     line-height: 30px;
 
 }
+
+/*   set effect to all button when u hover on it*/
+
+.desc-aboutme button, .contact-form button,
+.certificate-wrapper button,#myPortfolio button,
+button{
+  padding: 25px 20px;
+  transition: all 1s;
+  transition-timing-function: ease-in;
+  
+  
+}
+button:hover{
+  transform: scale(1.3);
+  
+}
+
+
 body{
     min-height: 100vh;
 }

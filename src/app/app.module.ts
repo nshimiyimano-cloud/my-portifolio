@@ -18,6 +18,7 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatProgressBarModule} from '@angular/material/progress-bar';
 import {MatChipsModule} from '@angular/material/chips';
 import {SlickCarouselModule} from 'ngx-slick-carousel';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -40,7 +41,8 @@ import {SlickCarouselModule} from 'ngx-slick-carousel';
     MatButtonModule,
     MatProgressBarModule,
     MatChipsModule,
-    SlickCarouselModule
+    SlickCarouselModule,
+    NgbModule
   
   ],
   providers: [],
