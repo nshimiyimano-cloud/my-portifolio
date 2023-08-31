@@ -83,9 +83,65 @@
               <small class="text-muted">https://www.apps.trustandcarerwanda.org/</small>
             </div>
           </div>
+          
 
+         
+    </div><br/><br/>
+    <p class="d-flex flex-wrap w-100 justify-content-evenly mb-5">
+      <button class="w-25 p-4" color="primary"  mat-raised-button>Add Site</button>
+    <button class="w-25 p-4" color="primary"  mat-raised-button>Contact Me</button>
+    </p>
+
+</div>
+
+
+<div class="testimonial text-center">
+  <h2>What Clients Say</h2>
+  <p>As you explore my portfolio, I want to convey my deep commitment
+   to professionalism, expertise, and continuous development. My journey
+   as a full-stack developer has been marked by a dedication to crafting exceptional digital solutions.
+</p>
+  <p>A true measure of professionalism, expertise and development 
+    success is based on the impression made on clients.</p>
+    
+
+    <div class="carousel container mx-auto">
+      <div class="myquotes-out">
+        <i class="fa fa-quote-left"></i>
+        </div>      
+   
+      <ngx-slick-carousel
+      #slickModal="slick-carousel" 
+      
+      [config]="slidesConfig">
+     
+      <div ngxSlickItem *ngFor="let slide of slides" class="slide">
+        
+        <div class="card " style="border-radius: unset;">
+         
+          <img src="{{slide.img}}" class="card-img-top img-style" alt="...">
+
+          <div class="card-body slidecard">
+            <div class="myquote-inner">
+              <i class="fa fa-quote-left"></i>
+              </div> 
+            
+            <p class="card-text" style="color:inherit;">{{slide.content}}</p>
+          </div>
+          <div class="card-footer" style="border-top:unset;">
+            <h2 class="card-title">{{slide.name}}</h2>
+            <small class="text-muted">{{slide.title}}</small>
+          </div>
+        </div>
+
+      </div>
+
+
+      </ngx-slick-carousel>
 
     </div>
 
 </div>
 </section>
+
+

@@ -5,6 +5,81 @@
 }*/
 
 .myblog .card{
-    width: 350px;
+    width: 400px;
     margin: 10px;
 }
+
+
+
+
+
+
+.click-prev::before, slick-next::before{
+    color: black !important;
+    
+    
+}
+
+img-style{
+    margin-left: auto;
+    margin-right: auto;
+    height: 250px;
+    width: 250px;
+}
+
+.carousel{
+    background: rgba(0, 0, 255,0.1);
+    padding: 100px 20px;
+}
+
+.carousel .slidecard,.carousel{
+    position: relative;
+}
+
+.myquotes-out{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left:-70px;
+    top: 10px;
+    width:100px;
+    height: 100px;
+    border-radius: 50%;
+    background: rgb(131, 131, 234);
+    
+
+}
+
+.slidecard .myquote-inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left:5px;
+    top: -50px;
+    width:50px;
+    height: 50px;
+    border-radius: 50%;
+    background: rgb(131, 131, 234);
+    
+    
+
+}
+
+.myquotes-out i{
+    color:while;
+    font-size:50px;
+    font-weight:900;
+
+}
+
+
+.slidecard .myquote-inner i{
+    color:white;
+    font-size:20px;
+    font-weight:900;
+
+}
+
+
