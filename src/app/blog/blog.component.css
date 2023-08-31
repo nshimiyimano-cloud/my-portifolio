@@ -1,0 +1,10 @@
+/*.myblog .card-container{
+    display: flex;
+    width: 50%;
+    flex-wrap:wrap ;
+}*/
+
+.myblog .card{
+    width: 350px;
+    margin: 10px;
+}
