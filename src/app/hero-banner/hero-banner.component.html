@@ -3,7 +3,7 @@
         <mat-icon class="ring-anomate" style="font-size:35px;color: rgb(45, 227, 45);">notification_important</mat-icon>
     </div>
     <marquee>
-        <div class="d-flex justify-content-between " style="color: rgb(100, 152, 100);">
+        <div class="d-flex justify-content-between " style="color: rgb(100, 152, 100);width:100%;">
             <h2>Get Your Whole Project Ready On Time</h2>
             <h2>Self Development is My Great Strength</h2>
             <h2>Happy To help Others made me to found myself with the Great Potential in Software Development Journey
@@ -23,39 +23,43 @@
 
 
     </div>
-    <div class="container img-profile">
-        <div class="d-flex align-items-center">
+    <div class="container">
+        <div class="img-profile  align-items-center">
 
 
             <img id="sunrizeUnimate" src="../../assets/sunrize.png" alt=""
-                style="float:left;height:80px;width:80px; box-shadow:0px 15px 20px 0px rgb(123, 123, 231);border-radius:50%;">
+                >
             <img [src]="'../../assets/profile.jpg'" [alt]="'profile picture'"
                 style="box-shadow: 50px 50px #29254a;margin:auto;">
 
         </div>
         <div class="downloadcv  mx-auto" >
-            <div class="type d-flex flex-row m-5">
+            <div class="type d-flex flex-row justify-content-center m-5">
                 <h2 style="color: rgb(100, 152, 100);"><span
-                        style="color:rgb(123, 123, 231) ;font-weight:bold;font-size:35px ;">Hey There, I
+                        style="color:rgb(123, 123, 231) ;font-weight:bold;font-size:28px ;">Hey There, I
                         am</span>&nbsp;&nbsp;</h2>
                 <ngx-typed-js
                     [strings]="['Nshimiyimana Jean Luc','Web Designer','Front End Developer','Backend Developer']"
                     [loop]="true" [typeSpeed]="50" [shuffle]="true">
-                    <span class="typing" style="color: rgb(100, 152, 100);font-weight:bold;font-size:30px;"> </span>
+                    <span class="typing" style="color: rgb(100, 152, 100);font-weight:bold;font-size:25px;"> </span>
 
                 </ngx-typed-js>
             </div>
 
 
-            <p class="mb-3">Welcome! If you're looking for a detailed overview of my skills, experience, and achievements,
+            <div class="paragrapgh">
+
+
+            <p >Welcome! If you're looking for a detailed overview of my skills, experience, and achievements,
                 you're just a click away from accessing my CV. Get an in-depth look at my 4 years of expertise as a
                 full-stack developer proficient in Angular, React, MySQL, Bootstrap, WordPress, and Python.
                 Download my CV now and discover how I can bring value to your projects.</p>
            
 
-                <button mat-raised-button color="primary" >Get My CV<mat-icon>file_download
-                </mat-icon></button>
+                <button class="btn btn-primary" >Get My CV<mat-icon>file_download</mat-icon>
+                </button>
         </div>
+    </div>
 
 
     </div>
