@@ -74,8 +74,8 @@ export class BlogComponent {
        name:"Kulshrestha SudKul",
       title:"DevOps engineer | Azure architect",
       content:`
-       Working with Jeanluc on software development projects has been a game-changer for us.
-       His deep understanding of software architecture and coding standards ensures our applications are scalable and efficient.
+    
+       He has deep understanding of software architecture and coding standards ensures our applications are scalable and efficient.
        His commitment to quality code and thorough testing reflects his passion for delivering top-notch solutions
        His mastery of various technologies, from Angular and React to MySQL and Python.`
     }, 
@@ -124,9 +124,9 @@ export class BlogComponent {
     
       
   {
-      img:"../../assets/avicB.jpg",
-       name:"zadhul Aman",
-      title:"IT Innovator",
+      img:"../../assets/aman-zaghul.png",
+       name:"Eman Zaghloul",
+      title:"Software Engineer",
       content:`
       Jeanluc's dedication and hardworking attitude have left a lasting impression on us. His commitment to each project, from development to implementation, is truly commendable. 
       Not only does he consistently deliver projects on time, but he also goes above and beyond to ensure they meet our exact requirements. 
@@ -137,7 +137,7 @@ export class BlogComponent {
  
 
     {
-      img:"../../assets/Gift Chimphonda.jpeg",
+      img:"../../assets/Gift Chimphonda.jpg",
        name:"Gift Chimphonda",
       title:"Application Support Specialist",
       content:`      
@@ -156,7 +156,7 @@ export class BlogComponent {
       commendable.`
     },
     {
-      img:"../../assets/chriss.jpeg",
+      img:"../../assets/chriss.jpg",
       name:"Nsengiyumva Chriss",
       title:"Software Developer",
       content:`

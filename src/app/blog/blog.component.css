@@ -4,6 +4,16 @@
     color: #3b6787;
     background: cyan;
 }
+
+ .myblog .card img{
+    transition: all 1s ease-out;
+    
+ }
+ .myblog .card img:hover{
+   transform: scale(1.2);
+   filter: brightness(60%);
+   
+ }
 .myblog .card a:hover{
     background-color: #143146;
 }
@@ -51,9 +61,11 @@ img-style{
 
 .carousel .slidecard,.carousel{
     position: relative;
+
 }
 .carousel .card{
     box-shadow:0px 3px 12px lime;
+    text-align: justify;
 }
 
 .myquotes-out{
