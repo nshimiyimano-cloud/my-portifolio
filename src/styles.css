@@ -4,7 +4,7 @@
   scroll-behavior: smooth;
 }
 *{
-    color: white;
+    color:#9bacc4;
     box-sizing: border-box;
     padding: 0;
     margin: 0;
@@ -16,18 +16,29 @@
 
 /*   set effect to all button when u hover on it*/
 
-.desc-aboutme button, .contact-form button,
+.desc-aboutme button, .contactus button,
 .certificate-wrapper button,#myPortfolio button,
-.paragrapgh button{
+#myPortfolio a, .downloadcv a,#services button{
   padding: 25px 20px;
-  transition: all 1s;
-  transition-timing-function: ease-in;
-  
+  transition: all 0.5s ease-in;  
   
 }
-button:hover{
+
+
+
+button:hover,#services button:hover,.downloadcv a:hover,#myPortfolio a:hover{
   transform: scale(1.3);
   
+}
+
+
+/*  stylying for every h2*/
+
+.interest h2,.hobies h2, .companies h2,.testimonial h2,#myPortfolio h2,
+#myCertificates h2,.work-history h2,.services h2,.contactus h2{
+  font-size: 1.8em;
+  color:rgb(100, 152, 100);
+  padding:50px 20px;
 }
 
 
@@ -52,3 +63,12 @@ body{
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+@media only screen and (max-width: 950px) {
+  .hilighter{
+    display: none;
+
+  }
+  
+}

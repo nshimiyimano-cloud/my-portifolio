@@ -1,12 +1,30 @@
-/*.myblog .card-container{
-    display: flex;
-    width: 50%;
-    flex-wrap:wrap ;
-}*/
+.myblog .card a{
+    transition: background-color 1s ease-out;
+    font-weight: 600;
+    color: #3b6787;
+    background: cyan;
+}
+.myblog .card a:hover{
+    background-color: #143146;
+}
 
 .myblog .card{
     width: 400px;
     margin: 10px;
+    transition: all 1s ease-out;
+    
+}
+
+.myblog .card:hover{
+    box-shadow:0px 3px 12px lime;
+    transform: translateY(15px);
+    
+}
+
+.myblog .card h3{
+    font-weight: 900;
+    color:rgb(100, 152, 100);
+
 }
 
 
@@ -15,8 +33,7 @@
 
 
 .click-prev::before, slick-next::before{
-    color: black !important;
-    
+    color: black !important;   
     
 }
 
@@ -34,6 +51,9 @@ img-style{
 
 .carousel .slidecard,.carousel{
     position: relative;
+}
+.carousel .card{
+    box-shadow:0px 3px 12px lime;
 }
 
 .myquotes-out{
@@ -68,7 +88,7 @@ img-style{
 }
 
 .myquotes-out i{
-    color:while;
+   color: white;
     font-size:50px;
     font-weight:900;
 
@@ -81,5 +101,20 @@ img-style{
     font-weight:900;
 
 }
+
+@media only screen and (max-width: 650px) {
+
+.myquotes-out{
+display: none;
+    }
+
+.carousel .card{
+    width: 90% !important;
+}
+    
+
+}
+
+
 
 

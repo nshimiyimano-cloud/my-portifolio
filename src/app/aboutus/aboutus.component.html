@@ -1,16 +1,16 @@
 <section id="aboutMe" class="container">
-    <div class=" d-flex flex-row justify-content-center align-items-center">
+    <div class="aboutme-wrapper d-flex justify-content-between align-items-center">
     <div class="img-block">
         <div class="img-profile">
-            <img src="../../assets/jeanluc_profile1.png" alt="">
+            <img src="../../assets/jeanluc_profile1.png" style="background-size:cover;background-position:top left;filter:brightness(70%);box-shadow:0px 3px 12px lime;width:100%;" alt="">
 
         </div>
 
     </div>
 
-    <div class="desc-aboutme">
+    <div class="desc-aboutme mb-5">
         <div class="d-flex flex-column ">
-            <h2>Nshimiyimana Jean Luc</h2>
+            <h2 style=" color:rgb(100, 152, 100);font-size:24px;padding:30px 0px;">Nshimiyimana Jean Luc</h2>
             <p>
                 I'm full-stack developer with over 4 years of hands-on experience
                 in the world of web development. If you're in need of a project to be brought to life efficiently
@@ -41,10 +41,56 @@
 
                 Let's collaborate to transform your ideas into reality.
             </p>
-            <button class="w-50" mat-raised-button color="primary">View Portfolio</button>
+            <div>
+            <button  mat-raised-button color="primary">View Portfolio</button>
+            </div>
 
 
         </div>
+
+
+ <div class="hilighter" style="z-index:-1;
+    position:absolute;
+    border-radius:50%;
+    width:40%;height:50%;
+    background: linear-gradient(
+    144.39deg,
+    #5b3f3f -27.56%,
+    #2f2c4c 10%, -78.47%,
+    #29254a 10%,
+    rgb(36, 29, 29) 91.61%  
+    
+  );
+    left:5%; bottom:-20%;
+    transform:rotate(150deg)
+    
+    "
+    
+    ></div> 
+
+
+    <div class="hilighter" style="z-index:-1;
+    position:absolute;
+    border-radius:50%;
+    width:30%;height:50%;
+    background: linear-gradient(
+    154.39deg,
+   
+    #f61010 -278.56%,
+    #2f2c4c 10%, -78.47%,
+    #29254a 10%,
+    rgb(36, 29, 29) 91.61%  
+  );
+    right:5%; bottom:-10%;"
+    
+    ></div> 
+
+
+
+
+
+
+
 
     </div>
     </div>
@@ -54,7 +100,7 @@
 
     <div class="hobies  text-center">
         <h2>Hobbies</h2>
-        <p>
+        <p class="mb-5">
             Of course, I don't spend my 24hrs/day programming and coding. I have other hobbies <br/>that make my day worthwhile.
              I have listed some of my hobbies that might interest you.
         </p>
@@ -91,7 +137,7 @@
 
             <div class="card m-2">
                 <div class="card-header">
-                    <mat-icon class="text-primary">church</mat-icon>
+                    <mat-icon>church</mat-icon>
                 </div>
                 <div class="card-header">
                     Praying
@@ -102,7 +148,7 @@
 
             <div class="card m-2">
                 <div class="card-header">
-                    <i class="text-primary fa fa-music"></i>
+                    <i class="fa fa-music"></i>
                 </div>
                 <div class="card-header">
                     Music
@@ -112,7 +158,7 @@
 
             <div class="card m-2">
                 <div class="card-header">
-                    <i class="text-primary fa fa-pen"></i>
+                    <i class="fa fa-pen"></i>
                 </div>
                 <div class="card-header">
                     Writting
@@ -124,7 +170,7 @@
 
             <div class="card m-2">
                 <div class="card-header">
-                    <i class="text-primary fa fa-book"></i>
+                    <i class="fa fa-book"></i>
                 </div>
                 <div class="card-header">
                     Reading Book
@@ -136,7 +182,7 @@
 
             <div class="card m-2">
                 <div class="card-header">
-                    <i class="text-primary fa fa-hiking"></i>
+                    <i class="fa fa-hiking"></i>
                 </div>
                 <div class="card-header">
                     Travelling
@@ -147,7 +193,7 @@
 
             <div class="card m-2">
                 <div class="card-header">
-                    <mat-icon class="text-primary"> tv</mat-icon>
+                    <mat-icon> tv</mat-icon>
                 </div>
                 <div class="card-header">
                     Watching
@@ -164,9 +210,9 @@
 
 
 
-    <div class="hobies m-5 text-center">
+    <div class="interest  text-center">
         <h2>Interest</h2>
-        <p>
+        <p class="mb-5">
             I have interests in other stuffs too. 
             I am not hell bound to the tech ecosystem but they form majority of things that catches my attention.
         </p>
@@ -175,7 +221,7 @@
 
             <div class="card m-2">
                 <div class="card-header">
-                    <mat-icon class="text-primary">android</mat-icon>
+                    <mat-icon>android</mat-icon>
                 </div>
                 <div class="card-header">
                     Android
@@ -186,7 +232,7 @@
 
             <div class="card m-2">
                 <div class="card-header">
-                    <mat-icon class="text-primary">code</mat-icon>
+                    <mat-icon>code</mat-icon>
                 </div>
                 <div class="card-header">
                     Open Source
@@ -195,7 +241,7 @@
 
             <div class="card m-2">
                 <div class="card-header">
-                    <i class="text-primary fa fa-windows"></i>
+                    <i class="fa fa-windows"></i>
                 </div>
                 <div class="card-header">
                     Windows
@@ -204,7 +250,7 @@
 
             <div class="card m-2">
                 <div class="card-header">
-                    <i class="text-primary fa fa-apple"></i>
+                    <i class="fa fa-apple"></i>
                 </div>
                 <div class="card-header">
                     Mac Os
@@ -214,7 +260,7 @@
 
             <div class="card m-2">
                 <div class="card-header">
-                    <mat-icon class="text-primary">colorize</mat-icon>
+                    <mat-icon>colorize</mat-icon>
                 </div>
                 <div class="card-header">
                     Painting
@@ -223,11 +269,11 @@
 
 
 
-
+            
             <div class="card m-2">
                 <div class="card-header">
                    
-                    <mat-icon class="text-primary">palette</mat-icon>
+                    <mat-icon >palette</mat-icon>
                 </div>
                 <div class="card-header">
                     Design
@@ -237,7 +283,7 @@
 
             <div class="card m-2">
                 <div class="card-header">
-                    <mat-icon class="text-primary"> show_chart</mat-icon>
+                    <mat-icon > show_chart</mat-icon>
                 </div>
                 <div class="card-header">
                     Other Activities
@@ -255,22 +301,24 @@
 
 
 
-    <div class="hobies  text-center">
+    <div class="companies  text-center">
         <h2>Companies</h2>
         <p>
             Of course, I don't spend my 24hrs/day programming and coding. I have other hobbies <br/>that make my day worthwhile.
              I have listed some of my hobbies that might interest you.
         </p>
 
-        <div class="d-flex  flex-row justify-content-center align-items-center flex-wrap-reverse mt-5 mb-5">
+        <div class="company-logos d-flex 
+         flex-row justify-content-evenly align-items-center
+          flex-wrap-reverse pt-5 pb-5">
 
            
-                    <img src="../../assets/prime.jpeg"  alt="">               
+                    <img src="../../assets/prime.jpeg" title="Prime Insurance Company" alt="prime Insurance company">               
            
-                    <img src="../../assets/trust.jpeg" alt="">            
-                     <img src="../../assets/udacity.png" alt="">   
-                     <img src="../../assets/diocese.png" alt="">
-                     <img src="../../assets/niks.png" alt="">          
+                    <img src="../../assets/trust.jpeg" title="Trust&Care" alt="trust and care">            
+                     <img src="../../assets/udacity.png" title="Udacity" alt="Udacity">   
+                     <img src="../../assets/diocese.png" title="Diocese Of Ruhengeri" alt="Diocese Of Ruhengeri">
+                     <img src="../../assets/niks.png" title="NiksConsulting Company" alt="Niksconsulting company">          
                     
          </div>
         
@@ -280,22 +328,22 @@
 
 
 
-        <div class="awards 
+        <div class="awards  mb-5 mt-5
         mt-5 mb-5 d-flex flex-row
          justify-content-center 
          align-items-center 
          flex-wrap-reverse text-center mt-5 mb-5" 
-         style="height:300px">
+         style="height:300px;">
 
 
          <div class="card m-2" style="background-color:inherit;">
             <div class="card-header">
-                <mat-icon class="text-danger">mood</mat-icon>
+                <mat-icon>mood</mat-icon>
                 
             </div>
-            <div class="card-body">
-                <h1>84</h1>
-                <p>Happy Clients</p>
+            <div class="card-body" style="font-size:40px;">
+                <h1 >84</h1>
+                <p >Happy Clients</p>
                 
             </div>
         </div> 
@@ -305,10 +353,10 @@
         <div class="card m-2" style="background-color:inherit;">
             <div class="card-header">
                 
-                <i class="text-danger fa fa-award"></i>
+                <i class="fa fa-award"></i>
             </div>
             <div class="card-body">
-                <h1>7</h1>
+                <h1>76</h1>
                 <p>Awords</p>
             </div>
         </div>   
@@ -317,7 +365,7 @@
 
         <div class="card m-2"  style="background-color:inherit;">
             <div class="card-header">
-                <mat-icon class="text-danger">share</mat-icon>
+                <mat-icon>share</mat-icon>
             </div>
             <div class="card-body">
                 <h1>110</h1>
@@ -328,7 +376,7 @@
 
         <div class="card m-2" style="background-color:inherit;">
             <div class="card-header">
-                <mat-icon class="text-danger">thumb_up_alt</mat-icon>
+                <mat-icon>thumb_up_alt</mat-icon>
             </div>
             <div class="card-body">
                 <h1>95</h1>

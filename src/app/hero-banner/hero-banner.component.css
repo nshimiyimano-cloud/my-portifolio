@@ -27,10 +27,11 @@
     transform: translateY(-100px);
     
 }
-marquee h2{
+marquee h3{
     border-right: 4px solid rgb(105, 105, 232);
     padding: 10px;
     line-height: 5px;
+    font-size: 20px;
 }
 
 #sunrizeUnimate{
@@ -38,32 +39,22 @@ marquee h2{
     width:80px; 
     box-shadow:0px 15px 20px 0px rgb(123, 123, 231);
     border-radius:50%;
-    animation: sunrizeanimate  0.2s linear infinite;
-    
+    animation: sunrizeanimate 0.3s linear infinite;
     
 }
 
 @keyframes sunrizeanimate{
-    0%{
-        
-        transform: rotate(0deg);
-    }
-    25%{
-        
-        transform: rotate(45deg);
-    }
-    50%{
-        
-        transform: rotate(90deg);
-    }
-    75%{
-        
-        transform: rotate(135deg);
-    }
-    100%{
-        
-        transform: rotate(180deg);
-    }
+
+        0%{
+            transform: rotate(0deg);
+        }
+        50%{
+            transform: rotate(360deg);
+        }
+        100%{
+            transform: rotate(0deg);
+    
+        }
     
 }
 

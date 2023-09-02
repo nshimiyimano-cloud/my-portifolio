@@ -4,17 +4,17 @@
     </div>
     <marquee>
         <div class="d-flex justify-content-between " style="color: rgb(100, 152, 100);width:100%;">
-            <h2>Get Your Whole Project Ready On Time</h2>
-            <h2>Self Development is My Great Strength</h2>
-            <h2>Happy To help Others made me to found myself with the Great Potential in Software Development Journey
-            </h2>
-            <h2>I'm excited to collaborate and bring your visions to life.</h2>
-            <h2>I am driven by the desire to stay updated with the latest industry trends and best practices, allowing
+            <h3>Get Your Whole Project Ready On Time</h3>
+            <h3>Self Development is My Great Strength</h3>
+            <h3>Happy To help Others made me to found myself with the Great Potential in Software Development Journey
+            </h3>
+            <h3>I'm excited to collaborate and bring your visions to life.</h3>
+            <h3>I am driven by the desire to stay updated with the latest industry trends and best practices, allowing
                 me to leverage cutting-edge technologies and methodologies in my work.
-            </h2>
-            <h2>Your success is my priority</h2>
-            <h2 style="border-right:none ;">What sets me apart? My commitment to crafting seamless and dynamic user
-                experiences.</h2>
+            </h3>
+            <h3>Your success is my priority</h3>
+            <h3 style="border-right:none ;">What sets me apart? My commitment to crafting seamless and dynamic user
+                experiences.</h3>
         </div>
     </marquee>
 </div>
@@ -35,9 +35,9 @@
         </div>
         <div class="downloadcv  mx-auto" >
             <div class="type d-flex flex-row justify-content-center m-5">
-                <h2 style="color: rgb(100, 152, 100);"><span
+                <h3 style="color: rgb(100, 152, 100);"><span
                         style="color:rgb(123, 123, 231) ;font-weight:bold;font-size:28px ;">Hey There, I
-                        am</span>&nbsp;&nbsp;</h2>
+                        am</span>&nbsp;&nbsp;</h3>
                 <ngx-typed-js
                     [strings]="['Nshimiyimana Jean Luc','Web Designer','Front End Developer','Backend Developer']"
                     [loop]="true" [typeSpeed]="50" [shuffle]="true">
@@ -50,14 +50,15 @@
             <div class="paragrapgh">
 
 
-            <p >Welcome! If you're looking for a detailed overview of my skills, experience, and achievements,
+            <p class="mb-5">Welcome! If you're looking for a detailed overview of my skills, experience, and achievements,
                 you're just a click away from accessing my CV. Get an in-depth look at my 4 years of expertise as a
                 full-stack developer proficient in Angular, React, MySQL, Bootstrap, WordPress, and Python.
                 Download my CV now and discover how I can bring value to your projects.</p>
            
 
-                <button class="btn btn-primary" >Get My CV<mat-icon>file_download</mat-icon>
-                </button>
+               <!---- <button class="btn btn-primary" >Get My CV<mat-icon>file_download</mat-icon>Get My CV<mat-icon>file_download</mat-icon></button>   -->
+                    <a  [href]="fileURL" target="_blank"mat-raised-button color="primary"  class="px-5" download="myresume.pdf">Get My CV<mat-icon>file_download</mat-icon></a>
+               
         </div>
     </div>
 

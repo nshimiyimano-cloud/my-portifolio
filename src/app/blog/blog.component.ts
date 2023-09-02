@@ -7,42 +7,64 @@ import { Component } from '@angular/core';
 })
 export class BlogComponent {
 
- 
-
-  slidesConfig={
-    "slidesToShow":3,
-    "slidesToScroll":3,
-    "autoplay":true,
-    "autoplaySpeed":4000,
-    "pauseOnHover":true,
-    "responsive":[
+  slideConfig = {
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    autoplay: true,
+    
+    dots: true,
+    prevArrow: `<span class="carousel-control-prev-icon float-start" 
+    style="cursor:pointer;margin-top:30%" aria-hidden="true"></span>`,
+    nextArrow: `<span class="carousel-control-next-icon float-end"  style="cursor:pointer;margin-top:-40%;margin-right:-30px;"  aria-hidden="true"></span>`,
+    responsive: [
       {
-        "breakpoint":902,
-        "settings":{
-          "arrows":true,
-          "infinite":true,
-          "slideToShow":2,
-          "slidesToScroll":2,
-
-        }
-      },
-
-      {
-        "breakpoint":708,
-        "settings":{
-        "arrows":true,
-        "infinite":true,
-        "slideToShow":1,
-        "slidesToScroll":1,
-  
-          }
-
-
-
-      }
-    ]
-
-  }
+        breakpoint: 1350,
+        settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2,
+        dots: true,
+        prevArrow: `<span class="carousel-control-prev-icon float-start" 
+        style="cursor:pointer;margin-top:30%" aria-hidden="true"></span>`,
+        nextArrow: `<span class="carousel-control-next-icon float-end"  style="cursor:pointer;margin-top:-66%;margin-right:-25px"  aria-hidden="true"></span>`,
+        },
+        },
+    {
+    breakpoint: 860,
+    settings: {
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    dots: true,
+    prevArrow: `<span class="carousel-control-prev-icon float-start" 
+    style="cursor:pointer;margin-top:70%" aria-hidden="true"></span>`,
+    nextArrow: `<span class="carousel-control-next-icon float-end"  style="cursor:pointer;margin-top:-105%;margin-right:-25px"  aria-hidden="true"></span>`,
+    },
+    },
+    {
+    breakpoint: 600,
+    settings: {
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    prevArrow: `<span class="carousel-control-prev-icon float-start" 
+    style="cursor:pointer;margin-top:90%" aria-hidden="true"></span>`,
+    nextArrow: `<span class="carousel-control-next-icon float-end"  style="cursor:pointer;margin-top:-110%;margin-right:-30px;"  aria-hidden="true"></span>`,
+    },
+    },
+    {
+    breakpoint: 480,
+    settings: {
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    },
+    },
+    {
+    breakpoint: 360,
+    settings: {
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    },
+    },
+    ],
+    };
 
 
   slides=[
