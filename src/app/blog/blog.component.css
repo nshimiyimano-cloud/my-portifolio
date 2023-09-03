@@ -8,6 +8,7 @@
  .myblog .card img{
     transition: all 1s ease-out;
     
+    
  }
  .myblog .card img:hover{
    transform: scale(1.2);
@@ -121,7 +122,12 @@ display: none;
     }
 
 .carousel .card{
-    width: 90% !important;
+    width: 96% ;
+}
+
+.myblog .card,.myblog .card img,.myblog .blog-container{
+    width: 100%;   
+    
 }
     
 

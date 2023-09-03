@@ -132,6 +132,10 @@ border: 1px solid #bbb;
     
 }
 
+.proficiency img{
+width:98%;
+margin-left:3%;
+}
 
 @media only screen and (max-width: 950px) {
 
@@ -177,6 +181,7 @@ border: 1px solid #bbb;
     border-right: unset;   
     border-left: 2px solid rgb(100, 152, 100);
     padding-left: 50px;
+    width: 98%;
    
 }
 
@@ -184,13 +189,27 @@ border: 1px solid #bbb;
     text-align: left;
     border-right: unset;   
     border-left: 2px solid rgb(100, 152, 100);
+    width: 98%;
 
+}
+.work-history,.exp-desc{
+    width: 96%;
 }
 
 .work-history .left-part::before{
     right: unset;
     left: -20px;
        
+    }
+
+ #services .service-inner-block{
+    width: 95%;
+ }
+
+
+ .proficiency img{
+    width:98%;
+    margin-left:unset;
     }
     
   

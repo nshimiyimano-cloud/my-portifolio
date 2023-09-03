@@ -50,6 +50,11 @@
     
 
 }
+.awards{
+    height:300px;
+
+}
+
 .awards .card{
       background: #161c2d !important;
     border: unset;
@@ -85,6 +90,8 @@
 .img-block,.desc-aboutme{
     width:96%;
 }
+.awards,.companies .company-logos{
+    height:unset;
 
-
+}
 }

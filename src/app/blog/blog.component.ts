@@ -141,9 +141,9 @@ export class BlogComponent {
     },     
 
     {
-      img:"../../assets/Iradukunda Michelle.jpg",
-       name:"Iradukunda Michelle",
-      title:"IT Innovator",
+      img:"../../assets/claire.jpg",
+       name:"Niyigena Claire",
+      title:"Web Master",
       content:`
       Jeanluc's role as a website developer has transformed our online presence. 
       His proficiency in creating modern UI, combined with his eye for design, has resulted in 
