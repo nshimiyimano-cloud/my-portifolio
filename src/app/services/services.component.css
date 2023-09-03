@@ -118,6 +118,14 @@ border: 1px solid #bbb;
     width:350px;
 }
 
+#services .service-inner-block img{
+    width:140px;
+    height:120px;
+    border-radius: 50%;
+    padding-right:10px ;
+    margin-bottom: 20px;
+   }
+
 
 #services .service-inner-block:hover{
     box-shadow:0px 3px 12px #bbb;

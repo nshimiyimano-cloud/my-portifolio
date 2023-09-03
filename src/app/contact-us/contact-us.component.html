@@ -1,75 +1,83 @@
-<section class="contactus row container  mx-auto" id="contactUs"  style="position:relative ;">
-  <h2 class="text-center m-5"><mat-icon>email</mat-icon>&nbsp;&nbsp;Get In Touch</h2>
+<section class="contactus row container  mx-auto" id="contactUs" style="position:relative ;">
+  <h2 class="text-center m-5">
+    <mat-icon>email</mat-icon>&nbsp;&nbsp;Get In Touch
+  </h2>
   <div class="contactus-description">
-  <p>
-    With over 4 years experience in Fullstack Developer, I deliver exceptional services for you within the shortest possible time at an affordable rate. 
-    Just drop me a message and I will be in touch instantly.
-  </p>
     <p>
-      I've honed my skills over the years to create high-performing, user-friendly applications 
+      With over 4 years experience in Fullstack Developer, I deliver exceptional services for you within the shortest
+      possible time at an affordable rate.
+      Just drop me a message and I will be in touch instantly.
+    </p>
+    <p>
+      I've honed my skills over the years to create high-performing, user-friendly applications
       that not only meet your requirements but also exceed your expectations.
-        
+
     </p>
     <p>
-      Let's build something amazing together. Contact me at <a style="text-decoration: none;" href="mailto:njeanluc828@gmail.com">njeanluc828@gmail.com</a> or connect 
-      with me on professional networking sites like <a style="text-decoration: none;" href="http://www.linkedin.com/in/nshimiyimana-jeanluc"> LinkedIn</a>.
+      Let's build something amazing together. Contact me at <a style="text-decoration: none;"
+        href="mailto:njeanluc828@gmail.com">njeanluc828@gmail.com</a> or connect
+      with me on professional networking sites like <a style="text-decoration: none;"
+        href="http://www.linkedin.com/in/nshimiyimana-jeanluc"> LinkedIn</a>.
     </p>
-    </div>
-    <div class="contact-desc col-md-6">
-      <h2><mat-icon>contact_mail</mat-icon>&nbsp;Contact Me</h2>
-      <hr/>
-      <div class="contactus-img">
-        <img style="width:100% ;" src="../../assets/contactus.jpg" alt="contact us">
+  </div>
+  <div class="contact-desc col-md-6">
+    <h2>
+      <mat-icon>contact_mail</mat-icon>&nbsp;Contact Me
+    </h2>
+    <hr />
+    <div class="contactus-img">
+      <img style="width:100% ;" src="../../assets/contactus.jpg" alt="contact us">
 
+    </div>
+
+
+
+    <ul class="socials-icon list-unstyled d-flex flex-row justify-content-around text-center flex-wrap">
+      <li> <a href=""> <i class="fa fa-whatsapp"></i> </a></li>
+      <li> <a href=""> <i class="fa fa-linkedin"></i> </a></li>
+      <li> <a href=""> <i class="fa fa-twitter"></i> </a> </li>
+      <li> <a href=""> <i class="fa fa-google"></i></a> </li>
+      <li> <a href=""><i class="fa fa-youtube"></i></a> </li>
+      <li> <a href=""><i class="fa fa-facebook"></i></a> </li>
+      <li> <a href=""><i class="fa fa-phone"></i></a> </li>
+
+    </ul>
+
+
+
+
+  </div>
+
+  <div class="contact-form col col-md-6 border-start mt-5 mb-5">
+    <form>
+      <!-- Name input -->
+      <div class="form-outline mb-4">
+        <input type="text" id="names" class="form-control" />
+        <label class="form-label" for="names">Name</label>
       </div>
 
-     
+      <!-- Email input -->
+      <div class="form-outline mb-4">
+        <input type="email" id="email" class="form-control" />
+        <label class="form-label" for="email">Email address</label>
+      </div>
 
-      <ul class="socials-icon list-unstyled d-flex flex-row justify-content-around text-center flex-wrap">
-        <li> <a href=""> <i class="fa fa-whatsapp"></i> </a></li>
-        <li> <a href=""> <i class="fa fa-linkedin"></i> </a></li>
-        <li>  <a href=""> <i class="fa fa-twitter"></i> </a> </li>
-        <li> <a href="">  <i class="fa fa-google"></i></a> </li>
-        <li> <a href=""><i class="fa fa-youtube"></i></a> </li>
-        <li> <a href=""><i class="fa fa-facebook"></i></a> </li>
-        <li> <a href=""><i class="fa fa-phone"></i></a> </li>        
-    
-      </ul>
-    
-        
-        
+      <!-- Message input -->
+      <div class="form-outline mb-4">
+        <textarea class="form-control" id="message" rows="4"></textarea>
+        <label class="form-label" for="message">Message</label>
+      </div>
 
-    </div>
 
-    <div class="contact-form col col-md-6 border-start mt-5 mb-5">
-        <form>
-            <!-- Name input -->
-            <div class="form-outline mb-4">
-              <input type="text" id="names" class="form-control" />
-              <label class="form-label" for="names">Name</label>
-            </div>
-          
-            <!-- Email input -->
-            <div class="form-outline mb-4">
-              <input type="email" id="email" class="form-control" />
-              <label class="form-label" for="email">Email address</label>
-            </div>
-          
-            <!-- Message input -->
-            <div class="form-outline mb-4">
-              <textarea class="form-control" id="message" rows="4"></textarea>
-              <label class="form-label" for="message">Message</label>
-            </div>
-          
-            
-          
-            <!-- Submit button -->
-            <button mat-flat-button color="primary" type="submit" class="float-md-end">Send Message&nbsp;&nbsp;<mat-icon [style]="'color: rgb(73, 205, 73)'">send</mat-icon></button>
-          </form>
 
-    </div>
-    
-    <div class="hilighter" style="z-index:-1;
+      <!-- Submit button -->
+      <button mat-flat-button color="primary" type="submit" class="float-md-end">Send Message&nbsp;&nbsp;<mat-icon
+          [style]="'color: rgb(73, 205, 73)'">send</mat-icon></button>
+    </form>
+
+  </div>
+
+  <div class="hilighter" style="z-index:-1;
     position:absolute;
     border-radius:50%;
     width:40%;height:70%;
@@ -83,12 +91,10 @@
     left:-20%; bottom:5%;
     transform:rotate(130deg);
     
-    "
-    
-    ></div> 
+    "></div>
 
 
-    <div class="hilighter" style="z-index:-1;
+  <div class="hilighter" style="z-index:-1;
     position:absolute;
     border-radius:50%;
     width:35%;height:70%;
@@ -101,9 +107,6 @@
     rgb(36, 29, 29) 91.61%  
   );
     right:-3%; bottom:2%;
-    transform:rotateZ(170deg);"
-    
-    ></div> 
-  
-</section>
+    transform:rotateZ(170deg);"></div>
 
+</section>
