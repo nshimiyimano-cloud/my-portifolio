@@ -8,15 +8,11 @@ import { Component } from '@angular/core';
 export class ServicesComponent {
   title="My Services I Offer To The World";
   skills_proficient:any=[
-    {
-      title:"HTML 5",
-      level:99.5,
-         
-    },
+   
 
     {
       title:"Bootstrap and Core CSS",
-      level:98,
+      level:99,
          
     },
 
@@ -40,7 +36,7 @@ export class ServicesComponent {
     
     {
     title:"python/flask",
-    level:80,
+    level:90,
        
   },
   {
@@ -67,6 +63,11 @@ export class ServicesComponent {
   {
     title:"Nodejs",
     level:86,
+       
+  },
+  {
+    title:"Spring Boot",
+    level:78,
        
   }
     

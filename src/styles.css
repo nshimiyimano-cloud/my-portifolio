@@ -18,7 +18,7 @@
 
 .desc-aboutme a, .contactus button,
 .certificate-wrapper button,#myPortfolio button,
-#myPortfolio a, .downloadcv a,#services button{
+#myPortfolio a, .downloadcv a,#services a{
   padding: 25px 20px;
   transition: all 0.5s ease-in;  
   
@@ -26,7 +26,7 @@
 
 
 
-button:hover,#services button:hover,.downloadcv a:hover,#myPortfolio a:hover,.desc-aboutme a:hover{
+button:hover,#services a:hover,.downloadcv a:hover,#myPortfolio a:hover,.desc-aboutme a:hover{
   transform: scale(1.3);
   
 }
