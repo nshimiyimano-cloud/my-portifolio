@@ -129,16 +129,7 @@ export class BlogComponent {
         His attention to detail and ability to troubleshoot complex issues make him an invaluable team member. 
       Jeanluc consistently goes above and beyond to ensure project success.`
     },
-    {
-      img:"../../assets/YAMAMOTO Tetsuya.jpg",
-       name:"YAMAMOTO Tetsuya",
-      title:"Projects Reviewer",
-      content:
-      `Working with Jeanluc has been an absolute pleasure.
-       His tireless dedication and commitment to excellence are truly inspiring. Even under tight deadlines, Jeanluc manages to have projects ready on time without compromising quality.
-        His willingness to assist others and share his expertise demonstrates his genuine team player mentality. 
-    `
-    },     
+       
 
     {
       img:"../../assets/claire.jpg",
