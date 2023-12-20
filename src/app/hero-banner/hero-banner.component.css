@@ -1,3 +1,10 @@
+
+#top_banner{
+    width: 70%;
+    margin: auto;
+    overflow-x: hidden;
+}
+
 .hero-banner-container{
     
     min-height: 500px;
@@ -92,9 +99,11 @@ marquee h3{
     .img-profile{
      width: 90%;        
     margin-bottom: 30px;
-    flex-wrap: wrap-reverse;
-        
+    flex-wrap: wrap-reverse;       
     
+    }
+    #top_banner{
+        width: 98%;
     }
 
    
