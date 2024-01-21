@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./hero-banner.component.css']
 })
 export class HeroBannerComponent {
-  fileURL='https://drive.google.com/file/d/1DBifLR0QVuH1Qs-T42HG46AaA1n1tDl1/view?usp=sharing';
+  fileURL='https://drive.google.com/file/d/11shI8pBubKQTYtuvweRXM6nNFwg51Hd9/view?usp=drive_link';
 
   resumeMarquee(){
     alert("hello");

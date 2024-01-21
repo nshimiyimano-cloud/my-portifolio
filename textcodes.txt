@@ -1,0 +1,11 @@
+deploy on netlify with netlify-cli
+
+npm install netlify-cli -g
+netlify init
+select create new site
+select insurance
+
+ng build -c production
+navigate dist/my-portifolio->
+or ntl deploy --prod
+
